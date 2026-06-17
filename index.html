@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdulwahab Saeed - Personal Website</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+nav{
+    background:#1565c0;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    max-width:1000px;
+    margin:20px auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#0d47a1;
+    margin-bottom:10px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+button{
+    background:#0d47a1;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#1565c0;
+}
+
+footer{
+    background:#0d47a1;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Abdulwahab Saeed</h1>
+    <p>Grade 11 Student | Ethiopia International School</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#interests">Interests</a>
+    <a href="#skills">Skills</a>
+    <a href="#goals">Goals</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is <strong>Abdulwahab Saeed</strong>. I am 17 years old and I am
+        an Ethiopian student studying at Ethiopia International School in Riyadh,
+        Saudi Arabia. Although I am Ethiopian, I was born and raised in Riyadh.
+        I enjoy learning new things, improving my skills, and exploring technology.
+    </p>
+
+    <br>
+
+    <h3>Personal Information</h3>
+    <ul>
+        <li>Name: Abdulwahab Saeed</li>
+        <li>Age: 17</li>
+        <li>Nationality: Ethiopian 🇪🇹</li>
+        <li>Born and Raised: Riyadh, Saudi Arabia 🇸🇦</li>
+        <li>School: Ethiopia International School</li>
+        <li>Grade: 11</li>
+    </ul>
+</section>
+
+<section id="interests">
+    <h2>My Interests</h2>
+    <ul>
+        <li>Technology and Web Development</li>
+        <li>Learning Programming</li>
+        <li>Playing Football ⚽</li>
+        <li>Watching Educational Videos</li>
+        <li>Reading and Learning New Skills</li>
+        <li>Spending Time with Family and Friends</li>
+    </ul>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+        <li>Communication and Teamwork</li>
+        <li>Problem Solving</li>
+        <li>Basic HTML, CSS, and JavaScript</li>
+        <li>Time Management</li>
+        <li>Critical Thinking</li>
+    </ul>
+</section>
+
+<section id="goals">
+    <h2>My Goals</h2>
+
+    <h3>Short-Term Goals</h3>
+    <ul>
+        <li>Achieve excellent grades in Grade 11.</li>
+        <li>Improve my web development skills.</li>
+        <li>Learn more about programming.</li>
+    </ul>
+
+    <br>
+
+    <h3>Long-Term Goals</h3>
+    <ul>
+        <li>Graduate from university.</li>
+        <li>Build a successful career in technology.</li>
+        <li>Create useful websites and applications.</li>
+        <li>Make my family proud.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Favorite Things</h2>
+    <ul>
+        <li>Favorite Sport: Football ⚽</li>
+        <li>Favorite Food: Pizza 🍕</li>
+        <li>Favorite Color: Blue 🔵</li>
+        <li>Favorite Subject: Information Technology 💻</li>
+        <li>Dream Destination: Ethiopia and other countries 🌍</li>
+    </ul>
+
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>
+        Thank you for visiting my personal website.
+        I am always excited to learn new things and meet new people.
+    </p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Abdulwahab Saeed | Personal Website Project</p>
+</footer>
+
+<script>
+function showMessage() {
+    document.getElementById("message").innerHTML =
+    "Welcome to my website! Thank you for visiting.";
+}
+</script>
+
+</body>
+</html>
